@@ -11,8 +11,8 @@ spec:
   - host: srv02.tce.ma.gov.br
     http:
       paths:
-      - pathType: Prefix
-        path: "/rotten-potatoes"
+      - path: /
+        pathType: Prefix
         backend:
           service:
             name: web
