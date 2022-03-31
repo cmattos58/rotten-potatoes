@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: mongodb
-          image: mongo:5.0.5
+          image: mongo:4.4.13
           ports:
             - containerPort: 27017
           env:
@@ -82,3 +82,7 @@ spec:
     targetPort: 5000
     nodePort: 30000
   type: NodePort
+
+
+
+
