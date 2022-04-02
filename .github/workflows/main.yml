@@ -28,6 +28,4 @@ jobs:
        with:
         username: $((secrets_DOCKERHUB_USER))
         password: $((secrets_DOCKERHUB_PWD))
-       ecr: # optional, default is auto
-       logout: # optional, default is true
-   
+       
